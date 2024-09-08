@@ -51,11 +51,11 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
       <td style="width: 25%; padding: 10px;">
         <div align="center">
           <a href="" target="_blank" rel="author">
-            <img width="110" src=""/>
+            <img width="110" src="https://avatars.githubusercontent.com/u/134623292?v=4"/>
           </a>
-          <a href="" target="_blank" rel="author">
-            <h4 style="margin-top: 1rem;">Persona 3</h4>
-            <h4 style="margin-top: 1rem;">Profesion persona 3</h4>
+          <a href="https://github.com/luquilla84" target="_blank" rel="author">
+            <h4 style="margin-top: 1rem;">Lucas Sebastian Brocanelli</h4>
+            <h4 style="margin-top: 1rem;">Mecanico de Surtidores</h4>
           </a>
           <a href="" target="_blank">
             <img src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=172B4D&logo=GitHub&logoColor=FFFFFF&label="/>
