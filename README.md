@@ -34,7 +34,7 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
       <td style="width: 25%; padding: 10px;">
         <div align="center">
           <a href="https://www.linkedin.com/in/marioarce95/" target="_blank" rel="author">
-            <img width="110" src=""/>
+            <img width="110" src="https://avatars.githubusercontent.com/u/102999761?v=4"/>
           </a>
           <a href="https://www.linkedin.com/in/marioarce95/" target="_blank" rel="author">
             <h4 style="margin-top: 1rem;">Arce Mario</h4>
