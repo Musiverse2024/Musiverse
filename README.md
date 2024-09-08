@@ -9,6 +9,11 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
 <br/>
 
 ## 🙌 FEATURES DESTACADAS:
+- Gestionar tu música favorita mediante la creación de playlists y marcando canciones como favoritas.
+- Búsqueda avanzada de canciones por nombre, banda o género.
+- Registro de historial de reproducción que incluya la fecha y hora de cada escucha.
+- Canciones aleatorias según el género musical preferido del usuario.
+
 
 ## 👩‍💻 DESARROLLADORES:
 <table align="center" style="border-collapse: collapse; width: 100%; max-width: 1200px;">
