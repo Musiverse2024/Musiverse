@@ -33,10 +33,10 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
       </td>
       <td style="width: 25%; padding: 10px;">
         <div align="center">
-          <a href="" target="_blank" rel="author">
+          <a href="https://www.linkedin.com/in/marioarce95/" target="_blank" rel="author">
             <img width="110" src=""/>
           </a>
-          <a href="" target="_blank" rel="author">
+          <a href="https://www.linkedin.com/in/marioarce95/" target="_blank" rel="author">
             <h4 style="margin-top: 1rem;">Arce Mario</h4>
             <h4 style="margin-top: 1rem;">Fullstack Developer-Data Analyst</h4>
           </a>
