@@ -70,7 +70,7 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
         <td style="width: 25%; padding: 10px;">
         <div align="center">
           <a href="" target="_blank" rel="author">
-            <img width="110" src="https://media.licdn.com/dms/image/v2/D4D03AQFMDBlCEUIGWA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724948385736?e=1730332800&v=beta&t=tpi0i1PCe6NfTEbR8ADrKaTgZOQ3LyVNzqYUqgt61mk"/>
+            <img width="110" src=""/>
           </a>
           <a href="" target="_blank" rel="author">
             <h4 style="margin-top: 1rem;">Persona 4</h4>
