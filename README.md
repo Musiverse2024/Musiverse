@@ -70,13 +70,13 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
         <td style="width: 25%; padding: 10px;">
         <div align="center">
           <a href="" target="_blank" rel="author">
-            <img width="110" src=""/>
+            <img width="110" src="https://avatars.githubusercontent.com/u/169155849?v=4"/>
           </a>
           <a href="" target="_blank" rel="author">
-            <h4 style="margin-top: 1rem;">Persona 4</h4>
-            <h4 style="margin-top: 1rem;">Prof persona 4</h4>
+            <h4 style="margin-top: 1rem;">Gabriela Acosta</h4>
+            <h4 style="margin-top: 1rem;">Analista de datos</h4>
           </a>
-          <a href="" target="_blank">
+          <a href="https://github.com/gabriela11111" target="_blank">
             <img src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=172B4D&logo=GitHub&logoColor=FFFFFF&label="/>
           </a>
           <a href="" target="_blank">
