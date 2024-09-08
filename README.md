@@ -34,9 +34,9 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
       <td style="width: 25%; padding: 10px;">
         <div align="center">
           <a href="" target="_blank" rel="author">
-            <img width="110" src="https://ca.slack-edge.com/TJXGUH2G1-U07B8C3GNJW-d6732a6c8856-512"/>
+            <img width="110" src=""/>
           </a>
-          <a href="https://www.linkedin.com/in/paula-velez/" target="_blank" rel="author">
+          <a href="" target="_blank" rel="author">
             <h4 style="margin-top: 1rem;">Persona 2</h4>
             <h4 style="margin-top: 1rem;">Profesion persona 2</h4>
           </a>
@@ -51,13 +51,13 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
       <td style="width: 25%; padding: 10px;">
         <div align="center">
           <a href="" target="_blank" rel="author">
-            <img width="110" src="https://avatars.githubusercontent.com/u/94198041?v=4"/>
+            <img width="110" src=""/>
           </a>
           <a href="" target="_blank" rel="author">
             <h4 style="margin-top: 1rem;">Persona 3</h4>
             <h4 style="margin-top: 1rem;">Profesion persona 3</h4>
           </a>
-          <a href="https://github.com/Vargas-Veronica" target="_blank">
+          <a href="" target="_blank">
             <img src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=172B4D&logo=GitHub&logoColor=FFFFFF&label="/>
           </a>
           <a href="" target="_blank">
@@ -103,8 +103,8 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
       </td>
       <td style="width: 25%; padding: 10px;">
         <div align="center">
-          <a href="https://www.linkedin.com/in/" target="_blank" rel="author">
-            <img width="110" src="https://avatars.githubusercontent.com/u/106892134?v=4"/>
+          <a href="" target="_blank" rel="author">
+            <img width="110" src=""/>
           </a>
           <a href="" target="_blank" rel="author">
             <h4 style="margin-top: 1rem;">Persona6</h4>
