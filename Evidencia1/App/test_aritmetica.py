@@ -35,7 +35,7 @@ def test_restar():
         assert round(aritmetica.restar(1.0, 1.0), 2) == 0.00, \
             "1.0 - 1.0 debe ser aproximadamente 0.00"
     except AssertionError as error:
-        errores.append(f"Error en la segunda aserción: {error}")
+        errores.append(f"error en la segunda aserción: {error}")
     try:
         assert round(aritmetica.restar(0, 0), 2) == 0.00, \
             "0 - 0 debe ser aproximadamente 0.00"
