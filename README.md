@@ -37,13 +37,13 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
             <img width="110" src=""/>
           </a>
           <a href="" target="_blank" rel="author">
-            <h4 style="margin-top: 1rem;">Persona 2</h4>
-            <h4 style="margin-top: 1rem;">Profesion persona 2</h4>
+            <h4 style="margin-top: 1rem;">Arce Mario</h4>
+            <h4 style="margin-top: 1rem;">Fullstack Developer-Data Analyst</h4>
           </a>
-          <a href="" target="_blank">
+          <a href="https://github.com/Marioarce95" target="_blank">
             <img src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=172B4D&logo=GitHub&logoColor=FFFFFF&label="/>
           </a>
-          <a href="" target="_blank">
+          <a href="https://www.linkedin.com/in/marioarce95/" target="_blank">
             <img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
           </a>
         </div>
