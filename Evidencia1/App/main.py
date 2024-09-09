@@ -66,7 +66,9 @@ def mostrar_menu_aritmetica():
             print(f"Promedio de los números: {aritmetica.promedio_n(*numeros)}")
         
         elif opcion == 7:
+            print("\n●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●")
             print("Saliendo de la aplicación...")
+            print("●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●")
             break
         
         else:
