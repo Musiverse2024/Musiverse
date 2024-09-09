@@ -2,11 +2,15 @@ import aritmetica
 import login
 from validaciones import validar_entrada, validar_fecha, validar_dni, validar_nombre_usuario, validar_clave
 from usuarios import ManejoUsuarios
+CYAN = '\033[36m'
+print(CYAN)
 
 def mostrar_menu_aritmetica():
     """Muestra el menú de opciones de cálculo y maneja la selección del usuario."""
     while True:
-        print("\nMenú de Aritmética:\n")
+        print("\n●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●")
+        print("              Menú de Aritmética")
+        print("●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●")
         print("1. Sumar")
         print("2. Restar")
         print("3. Dividir")
@@ -73,7 +77,9 @@ def main():
     manejo_usuarios = ManejoUsuarios()
 
     while True:
-        print("Bienvenido a la aplicación de Aritmética")
+        print("\n●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●")
+        print("    Bienvenido a la aplicación de Aritmética")
+        print("●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●")
         print("1. Iniciar sesión")
         print("2. Registrar usuario")
         print("3. Olvidé mi contraseña")
