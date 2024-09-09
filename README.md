@@ -5,10 +5,12 @@ Este repositorio contiene el código fuente y la documentación relacionada con 
 
 Musiverse ofrece una solución eficaz para la gestión de usuarios, canciones y playlists, con una estructura de base de datos diseñada para organizar las interacciones clave de manera eficiente, lo que permite una experiencia personalizada para los usuarios.
 
+
 ## 💻 STACK TECNOLÓGICO :
  ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) 
  ![Python](https://img.shields.io/badge/python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-F05032.svg?style=for-the-badge&logo=git&logoColor=white)
 <br/>
+
 
 ## 🙌 FEATURES DESTACADAS:
 - Gestionar tu música favorita mediante la creación de playlists y marcando canciones como favoritas.
