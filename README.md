@@ -63,7 +63,7 @@ Musiverse ofrece una solución eficaz para la gestión de usuarios, canciones y 
             <img width="110" src="https://avatars.githubusercontent.com/u/134623292?v=4"/>
           </a>
           <a href="https://github.com/luquilla84" target="_blank" rel="author">
-            <h4 style="margin-top: 1rem;">Lucas Sebastian Brocanelli</h4>
+            <h4 style="margin-top: 1rem;">Lucas Brocanelli</h4>
             <h4 style="margin-top: 1rem;">Mecanico de Surtidores</h4>
           </a>
           <a href="" target="_blank">
