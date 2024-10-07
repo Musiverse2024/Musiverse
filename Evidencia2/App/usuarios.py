@@ -75,15 +75,25 @@ def modificar_usuario():
 # Función para eliminar un usuario
 def eliminar_usuario():
     usuarios = cargar_usuarios()
-    id = int(input('Ingrese el ID del usuario a eliminar: '))
-    usuario = next((u for u in usuarios if u.id == id), None)
+    criterio = input('Eliminar por (1) Username o (2) Email: ')
     
+    if criterio == '1':
+        username = input('Ingrese el username del usuario a eliminar: ')
+        usuario = next((u for u in usuarios if u.username == username), None)
+    elif criterio == '2':
+        email = input('Ingrese el email del usuario a eliminar: ')
+        usuario = next((u for u in usuarios if u.email == email), None)
+    else:
+        print('Opción no válida.')
+        return
+
     if usuario:
         usuarios.remove(usuario)
         guardar_usuarios(usuarios)
         print('Usuario eliminado exitosamente.')
     else:
         print('Usuario no encontrado.')
+
         
 # Funcion para buscar un usuario
 def buscar_usuario():
