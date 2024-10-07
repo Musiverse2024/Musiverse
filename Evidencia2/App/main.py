@@ -13,7 +13,7 @@ from usuarios import (
 
 def menu_principal():
     while True:
-        print('\n--- Menú Principal ---')
+        print('\n--- Menú Principal ---\n')
         print('1. Agregar un nuevo usuario')
         print('2. Modificar un usuario')
         print('3. Eliminar un usuario')
@@ -22,7 +22,7 @@ def menu_principal():
         print('6. Ingresar al sistema')
         print('7. Salir')
         
-        opcion = input('Seleccione una opción: ')
+        opcion = input('\nSeleccione una opción: ')
         
         if opcion == '1':
             agregar_usuario()
@@ -38,21 +38,21 @@ def menu_principal():
             usuario_logueado = ingresar_al_sistema()
             if usuario_logueado:
                 while True:
-                    print('1. Salir al menú principal')
+                    print('\n1. Salir al menú principal')
                     print('2. Salir de la aplicación')
-                    opcion = input('Seleccione una opción: ')
+                    opcion = input('\nSeleccione una opción: ')
                     if opcion == '1':
                         break
                     elif opcion == '2':
-                        print('Saliendo de la aplicación...')
+                        print('\nSaliendo de la aplicación...')
                         exit()
                     else:
-                        print('Opción no válida.')
+                        print('\nOpción no válida.')
         elif opcion == '7':
-            print('Saliendo del sistema...')
+            print('\nSaliendo del sistema...')
             break
         else:
-            print('Opción no válida.')
+            print('\nOpción no válida.')
 
 if __name__ == "__main__":
     menu_principal()
