@@ -1,3 +1,5 @@
+# OBSERVACION Evidencia 2: Profe, va a ver que tenemos 2 BDD, una que se llama "musiverse.sql" cuyas consultas estan es "consultas.sql", y hay otra carpeta como "BD Simple Musiverse" que es una alternativa que queriamos consultarle si le parece que usemos para la Evidencia 3 o mantenemos la primera opcion?
+
 # Musiverse
 
 ## INTRODUCCIÓN
