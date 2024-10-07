@@ -1,4 +1,4 @@
-iimport pickle
+import pickle
 import os
 import datetime
 from validaciones import validar_nombre_usuario, validar_clave
@@ -88,7 +88,6 @@ def eliminar_usuario():
 # Funcion para buscar un usuario
 def buscar_usuario():
     usuarios = cargar_usuarios()
-    print(f'Usuarios cargados: {usuarios}')  # Verifica que los usuarios se están cargando correctamente
     criterio = input('Buscar por (1) Username o (2) Email: ')
     
     if criterio == '1':
