@@ -48,19 +48,19 @@ def guardar_accesos(accesos):
 def agregar_usuario():
     usuarios = cargar_usuarios()
     id = len(usuarios) + 1  # Genera un nuevo ID
-    username = validar_nombre_usuario(input('Ingrese el username: '), usuarios)
+    username = validar_nombre_usuario(input('\nIngrese el username: '), usuarios)
     password = validar_clave(input('Ingrese el password: '))
     email = input('Ingrese el email: ')
     
     nuevo_usuario = Usuario(id, username, password, email)
     usuarios.append(nuevo_usuario)
     guardar_usuarios(usuarios)
-    print('Usuario agregado exitosamente.')
+    print('Usuario agregado exitosamente.\n')
 
 # Función para modificar un usuario existente
 def modificar_usuario():
     usuarios = cargar_usuarios()
-    id = int(input('Ingrese el ID del usuario a modificar: '))
+    id = int(input('\nIngrese el ID del usuario a modificar: '))
     usuario = next((u for u in usuarios if u.id == id), None)
     
     if usuario:
@@ -98,7 +98,7 @@ def eliminar_usuario():
 # Funcion para buscar un usuario
 def buscar_usuario():
     usuarios = cargar_usuarios()
-    criterio = input('Buscar por (1) Username o (2) Email: ')
+    criterio = input('\nBuscar por (1) Username o (2) Email: ')
     
     if criterio == '1':
         username = input('Ingrese el username del usuario a buscar: ')
