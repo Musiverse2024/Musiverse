@@ -25,23 +25,23 @@ class Acceso:
 
 # Funciones de carga y guardado de datos
 def cargar_usuarios():
-    if os.path.exists('Evidencia2/App/usuarios.ispc'):
-        with open('Evidencia2/App/usuarios.ispc', 'rb') as archivo:
+    if os.path.exists('usuarios.ispc'):
+        with open('usuarios.ispc', 'rb') as archivo:
             return pickle.load(archivo)
     return []
 
 def guardar_usuarios(usuarios):
-    with open('Evidencia2/App/usuarios.ispc', 'wb') as archivo:
+    with open('usuarios.ispc', 'wb') as archivo:
         pickle.dump(usuarios, archivo)
 
 def cargar_accesos():
-    if os.path.exists('Evidencia2/App/accesos.ispc'):
-        with open('Evidencia2/App/accesos.ispc', 'rb') as archivo:
+    if os.path.exists('accesos.ispc'):
+        with open('accesos.ispc', 'rb') as archivo:
             return pickle.load(archivo)
     return []
 
 def guardar_accesos(accesos):
-    with open('Evidencia2/App/accesos.ispc', 'wb') as archivo:
+    with open('accesos.ispc', 'wb') as archivo:
         pickle.dump(accesos, archivo)
 
 # Función para agregar un nuevo usuario
@@ -52,7 +52,7 @@ def agregar_usuario():
     password = validar_clave(input('Ingrese el password: '))
     email = input('Ingrese el email: ')
     
-    nuevo_usuario = Usuario(id, username, password, email)  # Asegúrate de que se crea el objeto correctamente
+    nuevo_usuario = Usuario(id, username, password, email)
     usuarios.append(nuevo_usuario)
     guardar_usuarios(usuarios)
     print('Usuario agregado exitosamente.')
@@ -84,17 +84,30 @@ def eliminar_usuario():
         print('Usuario eliminado exitosamente.')
     else:
         print('Usuario no encontrado.')
-
-# Función para buscar un usuario por ID
+        
+# Funcion para buscar un usuario
 def buscar_usuario():
     usuarios = cargar_usuarios()
-    id = int(input('Ingrese el ID del usuario a buscar: '))
-    usuario = next((u for u in usuarios if u.id == id), None)
+    criterio = input('Buscar por (1) Username o (2) Email: ')
     
+    if criterio == '1':
+        username = input('Ingrese el username del usuario a buscar: ')
+        usuario = next((u for u in usuarios if u.username == username), None)
+        print(f'Buscando por username: {username}')  # Verifica que está buscando correctamente por username
+    elif criterio == '2':
+        email = input('Ingrese el email del usuario a buscar: ')
+        usuario = next((u for u in usuarios if u.email == email), None)
+        print(f'Buscando por email: {email}')  # Verifica que está buscando correctamente por email
+    else:
+        print('Opción no válida.')
+        return
+
     if usuario:
-        print(usuario)
+        print(f'Usuario encontrado: {usuario}')
     else:
         print('Usuario no encontrado.')
+
+
 
 # Función para mostrar todos los usuarios
 def mostrar_usuarios():
