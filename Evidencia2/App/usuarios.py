@@ -25,23 +25,23 @@ class Acceso:
 
 # Funciones de carga y guardado de datos
 def cargar_usuarios():
-    if os.path.exists('usuarios.ispc'):
-        with open('usuarios.ispc', 'rb') as archivo:
+    if os.path.exists('Evidencia2/App/usuarios.py'):
+        with open('Evidencia2/App/usuarios.ispc', 'rb') as archivo:
             return pickle.load(archivo)
     return []
 
 def guardar_usuarios(usuarios):
-    with open('usuarios.ispc', 'wb') as archivo:
+    with open('Evidencia2/App/usuarios.ispc', 'wb') as archivo:
         pickle.dump(usuarios, archivo)
 
 def cargar_accesos():
-    if os.path.exists('accesos.ispc'):
+    if os.path.exists('Evidencia2/App/accesos.ispc'):
         with open('accesos.ispc', 'rb') as archivo:
             return pickle.load(archivo)
     return []
 
 def guardar_accesos(accesos):
-    with open('accesos.ispc', 'wb') as archivo:
+    with open('Evidencia2/App/accesos.ispc', 'wb') as archivo:
         pickle.dump(accesos, archivo)
 
 # Función para agregar un nuevo usuario
