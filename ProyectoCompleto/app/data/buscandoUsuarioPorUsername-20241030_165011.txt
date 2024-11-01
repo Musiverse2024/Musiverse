@@ -1,0 +1,5 @@
+Búsqueda Binaria por Username: buscando 'pablo' en 4 usuarios.
+Intento 1: Username en posición 1 es 'maria' - Buscando en la mitad derecha (posición 2 a 3)
+Intento 2: Username en posición 2 es 'Agustin' - Buscando en la mitad derecha (posición 3 a 3)
+Intento 3: Username en posición 3 es 'juan' - Buscando en la mitad derecha (posición 4 a 3)
+No se encontró el username después de 3 intentos

@@ -1,0 +1,5 @@
+Búsqueda Binaria por DNI: buscando el DNI 39302448 en el archivo usuarios.ispc que contiene 5 usuarios.
+Intento 1: DNI del usuario de la posición 2 es 37302448 por lo tanto se buscará en la subsecuencia de la derecha (DNI más grandes) (posición 3 a 4)
+Intento 2: DNI del usuario de la posición 3 es 38301448 por lo tanto se buscará en la subsecuencia de la derecha (DNI más grandes) (posición 4 a 4)
+Intento 3: DNI del usuario de la posición 4 es 39302449 por lo tanto se buscará en la subsecuencia de la izquierda (DNI más chicos) (posición 4 a 3)
+Se realizaron 3 intentos y no se encontró el DNI buscado

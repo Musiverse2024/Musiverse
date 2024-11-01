@@ -1,0 +1,2 @@
+Búsqueda Binaria por Username: buscando 'maria' en 4 usuarios.
+Intento 1: Username en posición 1 es 'maria' - Usuario encontrado en 1 intentos
